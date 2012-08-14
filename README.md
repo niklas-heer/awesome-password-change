@@ -18,12 +18,7 @@ If you want to remove the copyright, please contact the author via mail: niklas.
 Copy all files to your webserver, open config/config.php and edit it to your needs!
 Done!
 
-Have fun! :D
 
--- Made with love in Germany :D<br>
-Niklas
-
-Description
-=======================
+## Description ##
 
 A fancy script to let users change their mail passwords. It was designed for mail-adresses created with ZPanel, but can be used for all other systems too. It is multilingual and new languages can be added easily.
