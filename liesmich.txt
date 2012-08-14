@@ -1,0 +1,21 @@
+Awesome Passwort Change
+
+AUTHOR: Niklas Heer
+MAIL: niklas.heer@me.com
+URL: http://niklas-heer.de
+VERSION: 1.0
+LICENSE: This work is licensed under:
+ 		* Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+ 		* Link: http://creativecommons.org/licenses/by-nc-sa/3.0/
+		
+Du kannst dieses Script auf deiner eigenen Website verwenden!
+
+Wenn du kein Copyright-Hinweis auf deiner Seite haben willst, kontaktiere mich per Mail: niklas.heer@me.cpm!
+
+INSTALLATION:
+
+Kopiere alle Dateien auf deinen Webspace, gehe in config/config.php und editiere es, wie beschrieben.
+Fertig! :D
+
+Viel Spaß,
+Niklas ;)

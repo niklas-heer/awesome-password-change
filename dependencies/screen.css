@@ -1,0 +1,91 @@
+body,html { margin: 0; padding: 0; background-image: url(../images/bg2.jpg); }
+
+.label {
+	background-image: url(../images/repeat.png);
+	padding: 5px;
+	font: bold 15px Arial, sans-serif;
+	display: block;
+    text-align: center;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.52) 0 1px 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 4px 4px;
+}
+
+.form { padding: 20px 20px 10px; background: #E0F4F8; width: 580px; overflow: hidden; margin: auto; border-radius: 10px;}
+.form p { margin: 0 0 10px 0; float:left; clear:both; display: block; }
+.form label { font: bold 0.9em Helvetica, Arial, sans-serif; color: #0077AA; padding: 0 0 0 5px;}
+.form .w { float: left; clear: both; padding: 5px 5px 0; background: #D7EBEF; font: bold 0.8em Helvetica, Arial, sans-serif; color: #333; overflow: hidden; }
+.form .w span { padding: 0 0 5px; float:left; }
+.form .input { border: 1px solid #A5C2C8; line-height: 1.2em; padding: 5px 26px 5px 5px; margin: 0 0 5px 0; width: 537px; font: bold 1.2em Helvetiva, Arial, sans-serif; }
+.form .w label { padding:0; }
+
+/* Validation */
+.w.error { background-color: #EFD8D7; }
+.w.error .input { border-color: #C8A5A5; background: #fff url('gfx/icon_error.png') no-repeat right center; }
+
+.w.valid { background-color: #A4EFAE; }
+.w.valid .input { border-color: #A5C8A6; background: #fff url('gfx/icon_valid.png') no-repeat right center; }
+.w.valid span { display: none; }
+
+
+.result-wrap-good {
+	border-color: #A4EFAE;
+	border-style:solid;
+	border-width:5px;
+	border-radius: 12px;
+	width: 620px;
+	margin: auto;
+}
+.result-good {
+	background-image: url(../images/repeat.png);
+	border-color: #A5C8A6;
+	border-style:solid;
+	border-width:5px; 
+	border-radius: 8px;
+	text-align: center; 
+	font: bold 16px Helvetiva, Arial, sans-serif;
+	text-shadow: rgba(0, 0, 0, 0.52) 0 1px 5px;
+	color: #fff;
+	overflow: hidden; 
+	width: 600px;
+	margin: auto;
+	padding: 5px;
+}
+
+.result-wrap-bad {
+	border-color: #EFD8D7;
+	border-style:solid;
+	border-width:5px;
+	border-radius: 12px;
+	width: 620px;
+	margin: auto;
+}
+
+.result-bad {
+	background-image: url(../images/repeat.png);
+	border-color: #d86060;
+	border-style:solid;
+	border-width:5px; 
+	border-radius: 8px;
+	text-align: center; 
+	font: bold 16px Helvetiva, Arial, sans-serif;
+	text-shadow: rgba(0, 0, 0, 0.52) 0 1px 5px;
+	color: #fff;
+	overflow: hidden; 
+	width: 600px;
+	margin: auto;
+	padding: 5px;
+}
+
+
+a:link {color:rgba(0,0,0,0.64);} 
+
+.copyright {
+	width: 800px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	color: rgba(0,0,0,0.5);
+	font: 12px Helvetiva, Arial, sans-serif;
+	
+}
